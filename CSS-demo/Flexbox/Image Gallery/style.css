@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(0, 0, 0);
+    font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color:white
+}
+
+.container div{
+    flex-basis: 25%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding:10px;
+    align-items: center;
+}
